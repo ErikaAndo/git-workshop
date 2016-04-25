@@ -1,1 +1,89 @@
-css
+@charset "utf-8";
+
+/*header始まり*/
+
+
+
+
+
+
+/*body始まり*/
+
+.background1 {
+	background-image: url("../img/background-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*font-size: 200%;*/
+}
+
+
+
+.profile-box{
+	width: 200px;
+	float: left;
+
+}
+
+
+
+.profile {
+	list-style: none;
+	width: 200px;
+	height: 400px;
+	/*background-color: orange;*/
+}
+
+
+
+
+.profile > li > a {
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+}
+
+.profile > li {
+	/*width: 200px;*/
+	height: 50px;
+	/*border: 1px solid #fff; */
+	/*margin: 0 auto;*/
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+
+}
+
+.profile > li >a:hover {
+	color: orange;
+}
+
+.profile-photo {
+    /*background: url("../img/e-2.png") no-repeat;*/
+    float: right;
+    width: 200px;
+    padding-right: 600px;
+}
+
+.1 a {
+    display: inline-block;
+}
+
+.1 a:hover {
+    background-color: transparent; /* IE6対応 */
+}
+
+.1 a:hover img {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
