@@ -1,14 +1,19 @@
 /* Top Page */
 
 /* Profile Page */
-.profile_text{
-	float:left;
+body {
+  background-image: url(../img/background-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.profile_image{
-    display:block;
-    clear:both;
-    content:".";
+.profile_text{
+	float:left;
+	width:40%;
+	padding-left:50px;
+	margin-right:100px;
 }
 
 }
