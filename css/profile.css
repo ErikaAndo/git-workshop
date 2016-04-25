@@ -1,0 +1,14 @@
+/* Top Page */
+
+/* Profile Page */
+.profile_text{
+	float:left;
+}
+
+.profile_image{
+    display:block;
+    clear:both;
+    content:".";
+}
+
+}
