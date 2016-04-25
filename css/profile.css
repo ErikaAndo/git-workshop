@@ -11,9 +11,12 @@ body {
 
 .profile_text{
 	float:left;
-	width:40%;
-	padding-left:50px;
-	margin-right:100px;
+	width:35%;
+	padding-left:150px;
+	margin-top:50px;
 }
 
+.profile_image img{
+	width:40%;
+	margin-top:50px;
 }
