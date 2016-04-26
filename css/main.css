@@ -55,29 +55,111 @@
 
 }
 
-.profile > li >a:hover {
+/*.erika:hover {
 	color: orange;
+	display:block;
+	width: 270%; 
+	height: 270%;
+  background-image:url(../img/e-2.png);
+  text-indent:-10000px;
 }
 
-.profile-photo {
-    /*background: url("../img/e-2.png") no-repeat;*/
+.ryouken:hover {
+	color: orange;
+	display:block;
+	width: 270%; 
+	height: 270%;
+  background-image:url(../img/r-2.png);
+  /*text-indent:-10000px;
+
+}*/
+
+.imgHover {  
+  position: relative;  
+  margin-top: 50px;  
+  width: 710px;  
+}
+
+
+  .imgHover .imgFrame {
+  /*border: solid 3px #999; */ 
+  position: absolute;  
+  right: 0;  
+  top: 0;  
+  line-height: 124px;  
+  text-align: center;  
+  /*width: 200px !important;*/  
+  width: 206px;  
+  /*height: 124px !important;*/  
+  height: 130px;  
+  text-align: left;
+}  
+
+.imgHover .imgHoverList {  
+  list-style: none;  
+  position: absolute;  
+/*  float: left;*/
+}  
+.imgHover ul li {  
+  /*float: left;*/  
+  margin-right: 5px;  
+  /*float: left;*/
+}  
+.imgHover ul li img {  
+  border: none;  
+}  
+.imgHover ul li a {  
+  display: block;  
+  text-decoration: none;
+}  
+.imgHover ul li a:hover {  
+  position: static;   
+}  
+
+.imgHover ul li a .mainImage {  
+  display: none; 
+}  
+.imgHover ul li a:hover .mainImage {  
+  display: block;  
+  position: absolute;  
+  top: -200px;  
+  left: 507px !important;  
+  left: 83px; 
+}  
+
+.thumbnail {
+  display: block;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.thumbnail > p {
+  /*float: left;*/
+}
+
+.thumbnail > p:hover {
+  color: orange;
+}
+/*.profile-photo {
+    background: url("../img/e-2.png") no-repeat;
     float: right;
     width: 200px;
     padding-right: 600px;
-}
+}*/
 
-.1 a {
+/*.1 a {
     display: inline-block;
 }
 
 .1 a:hover {
-    background-color: transparent; /* IE6対応 */
+    background-color: transparent;
 }
 
 .1 a:hover img {
     visibility: hidden;
 }
-
+/*
 
 
 
